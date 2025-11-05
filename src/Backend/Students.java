@@ -35,7 +35,7 @@ public class Students {
         System.out.println("+-------------+--------------------+");
         System.out.println("|Student Name | Registration Number|");
         for (int i=0; i<50; i++) {
-            System.out.println("| %-15s | %-20s |\n" + theStudents[i].studentName + theStudents[i].registerNum);
+            System.out.printf("| %-15s | %-20s |\n",  theStudents[i].studentName + theStudents[i].registerNum);
         }
     }
 
